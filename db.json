@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {
+      "desc": "Feel free to expired and play around with the web-page. \n\nif you have any questions feel free to contact me at om.mokhtar.98@gmail.com  ",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.tenor.com%2Fy4Ie8h0H-TwAAAAC%2Fcat-typing.gif&f=1&nofb=1&ipt=bea5034ea127aa7952c5de27e98242c9ca4460b59629a4aa4b2a3aeb096bdc64",
+      "title": "Welcome to my blog.",
+      "authorId": 1,
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "om.mokhtar.98@gmail.com",
+      "username": "Omar Mokhtar",
+      "password": "password123",
+      "age": "27",
+      "id": 1,
+      "isLoggedIn": true
+    }
+  ],
+  "session": [
+    {
+      "id": 1,
+      "currentUserId": null
+    }
+  ]
+}

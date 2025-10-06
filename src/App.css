@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.form-input-item {
+  @apply w-full my-[2.5%];
+}
+
+.submit-button {
+  @apply btn btn-soft w-[50%] my-[2.5%];;
+
+}
