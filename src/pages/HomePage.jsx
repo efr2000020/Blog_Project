@@ -11,7 +11,10 @@ export default function HomePage(props) {
           </h1>
           <h3 className="text-2xl text-center mt-5">Be the first to POST</h3>
           <br />
-          <h3 className="text-2xl text-center mt-5">Or if you did not run the json server, please run <br /> "npx json-server --watch db.json --port 3000"</h3>
+          <h3 className="text-2xl text-center mt-5">
+            Or if you did not run the json server, please run <br /> "npx
+            json-server --watch db.json --port 3000"
+          </h3>
         </div>
       ) : (
         props.posts.map((post) => (
