@@ -129,6 +129,7 @@ function App() {
     ) {
       propposedId += 1;
     }
+    propposedId = String(propposedId);
     newUser.id = propposedId;
     newUser.isLoggedIn = true;
     handleLogout(); // Log all other users out - just ins case.
@@ -163,6 +164,7 @@ function App() {
     ) {
       propposedId += 1;
     }
+    propposedId = String(propposedId);
     post.id = propposedId;
     setPosts([post, ...posts]);
     await axios.post(`${rootUrl}/posts`, post);
